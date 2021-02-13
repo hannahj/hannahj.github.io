@@ -18,12 +18,18 @@
         vr-mode-ui="enabled: false"
 		embedded
         arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
-        <a-entity gltf-model="https://raw.githubusercontent.com/hannahj/3D-AR/main/ar-playground/models/tree.glb" rotation="0 180 0" scale="1 1 1" gps-entity-place="latitude: 45.30171; longitude: -75.902216;" animation-mixer/>
+        <!--<a-entity gltf-model="https://raw.githubusercontent.com/hannahj/3D-AR/main/ar-playground/models/tree.glb" rotation="0 180 0" scale="1 1 1" gps-entity-place="latitude: 45.30171; longitude: -75.902216;" animation-mixer/>-->
         <a-text
                 value="Hello"
                 look-at="[gps-camera]"
                 scale="0.5 0.5 0.5"
                 gps-entity-place="latitude: 45.30171; longitude: -75.902216;"></a-text>
+        <a-text
+                value="Hi Ben"
+                look-at="[gps-camera]"
+                scale="0.5 0.5 0.5"
+                gps-entity-place="latitude: 45.42038; longitude: -75.83786;"></a-text>
+        800062
         <a-camera gps-camera rotation-reader></a-camera>
 	</a-scene>
 </body>
